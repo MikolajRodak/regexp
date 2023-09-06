@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <h1>Zarejestruj się!</h1>
+            <div class="form-box">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" placeholder="Podaj nazwę uzytkownika" />
+                <p class="error-text">error</p>
+            </div>
+
+            <div class="form-box">
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" placeholder="Podaj hasło" />
+                <p class="error-text">error</p>
+            </div>
+
+            <div class="form-box">
+                <label for="password2">Powtórz haslo:</label>
+                <input type="password" id="password2" placeholder="Powtórz hasło" />
+                <p class="error-text">error</p>
+            </div>
+
+            <div class="form-box">
+                <label for="e-mail">Adres e-mail:</label>
+                <input type="e-mail" id="e-mail" placeholder="Twój e-mail" />
+                <p class="error-text">error</p>
+            </div>
+
+            <div class="control-buttons">
+                <button class="clear">Wyczyść</button>
+                <button class="send">Wyslij</button>
+            </div>
+
+            <div class="popup">
+                <p>Formularz został poprawnie wysłany!</p>
+                <button class="close">Zamknij</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
